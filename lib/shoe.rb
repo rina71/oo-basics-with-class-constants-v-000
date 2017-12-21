@@ -8,7 +8,7 @@ BRANDS = [ ]
     @brand = brand
     BRANDS << brand if !(brand.include?(BRANDS)
   end
-
+end
 #   def brand=(brand)
 #     @brand = brand
 #
